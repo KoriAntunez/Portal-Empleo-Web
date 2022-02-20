@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/*----------------------------------------
+SOBREESCRIBIENDO  LOS ESTILOS DE BOOTSTRAP
+------------------------------------------*/
+.navbar {
+  box-shadow: 0px 10px 10px -6px rgb(139, 132, 132);
+  padding: 3px;
+  width: auto;
+  height: auto;
+  margin-bottom: 10px;
+}
+.bg-primary {
+  background-color: #9e73ee !important;
+}
+.navbar-brand {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Trebuchet MS", Verdana, sans-serif;
+}
+.seccion-inicio {
+  margin-top: 10px;
+}
+.centro {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.img-fluid .contenido {
+  width: 100%;
+  height: auto;
+}
+.carousel-control-next-icon {
+  filter: invert(1);
+}
+.carousel-control-prev-icon {
+  filter: invert(1);
+}
+.top-content .carousel-control-prev {
+  left: -110px;
+}
+.top-content .carousel-control-next {
+  right: -110px;
+}
