@@ -1,0 +1,41 @@
+.container-fluid{
+    background-color: #9e73ee;
+    padding: 1%;
+}
+.nav-link{
+    color:aliceblue
+}
+
+.texto{
+    font-family: cursive;
+    border-color:#49ef9e
+}
+
+
+.letra{
+    font-family: cursive;
+    text-align:center;
+    color:#9e73ee
+}
+
+.btn{
+    background-color: #49ef9e;
+    padding: 2%;
+    border-color: black;
+    color: rgb(0, 0, 0);
+    border-radius: 4%;
+}
+.btn1{
+    background-color: #8f9491;
+    padding: 2%;
+    border-color: black;
+    color: rgb(0, 0, 0);
+    border-radius: 4%;
+}
+.letras{
+    font-family: cursive;
+    text-align:left;
+    color:#9e73ee
+    
+}
+
