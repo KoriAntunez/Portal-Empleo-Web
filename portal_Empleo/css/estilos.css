@@ -1,48 +1,49 @@
-.container-fluid{
-    background-color: #9e73ee;
-    padding: 1%;
+.container-fluid {
+  background-color: #9e73ee;
+  padding: 1%;
 }
-.nav-link{
-    color:aliceblue
-}
-
-.texto{
-    font-family: cursive;
-    border-color:#49ef9e
+.nav-link {
+  color: aliceblue;
 }
 
-
-.letra{
-    font-family: cursive;
-    text-align:center;
-    color:#9e73ee
+.texto {
+  font-family: cursive;
+  border-color: #49ef9e;
 }
 
-.btn{
-    background-color: #49ef9e;
-    padding: 2%;
-    border-color: black;
-    color: rgb(0, 0, 0);
-    border-radius: 4%;
-}
-.btn1{
-    background-color: #8f9491;
-    padding: 1%;
-    border-color: black;
-    color: rgb(0, 0, 0);
-    border-radius: 4%;
-}
-.letras{
-    font-family: cursive;
-    text-align:left;
-    color:#9e73ee
-    
-}
-.form-control{
-    border:1px solid#49ef9e
-}
-.bor{
-    border:1px solid#000000
+.letra {
+  font-family: cursive;
+  text-align: center;
+  color: #9e73ee;
 }
 
+.btn {
+  background-color: #49ef9e;
+  padding: 2%;
+  border-color: black;
+  color: rgb(0, 0, 0);
+  border-radius: 4%;
+}
+.btn1 {
+  background-color: #8f9491;
+  padding: 1%;
+  border-color: black;
+  color: rgb(0, 0, 0);
+  border-radius: 4%;
+}
+.letras {
+  font-family: cursive;
+  text-align: left;
+  color: #9e73ee;
+}
+.form-control {
+  border: 1px solid#49ef9e;
+}
+.bor {
+  border: 1px solid#000000;
+}
 
+img.logoimg {
+  width: 3cm;
+  height: 1.2cm;
+}
