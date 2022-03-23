@@ -10,23 +10,47 @@ SOBREESCRIBIENDO  LOS ESTILOS DE BOOTSTRAP
   padding: 0;
   box-sizing: border-box;
 }
+
 img.logoimg {
   width: 3cm;
   height: 1.2cm;
 }
+
 img.cardimg {
-  width: 9cm;
-  height: 9cm;
+  width: 8cm;
+  height: 6cm;
 }
+
+.imgcard {
+  justify-content: center;
+}
+
 .bg-primary {
   background-color: #9e73ee;
 }
+
 contServices {
   justify-content: center;
   padding: 5;
 }
+
 h1,
 h3 {
+  color: #9e73ee;
+}
+
+.btn-primary {
+  background: #9e73ee;
+  color: #ffffff;
+  border: 0px solid;
+}
+.btn-primary:hover {
+  background: #49ef9eff;
+  color: #ffffff;
+  border: 0px solid;
+}
+
+.cardtitle {
   color: #9e73ee;
 }
 
@@ -34,9 +58,11 @@ cardp {
   padding: 2;
   margin: 5;
 }
+
 .bg-secondary {
   background-color: white;
 }
+
 .btn-outline-success {
   background-color: #49ef9eff;
   color: white;
@@ -47,15 +73,19 @@ cardp {
   color: #000000;
   border: 0px solid;
 }
+
 .navcontainer {
   justify-content: space-around;
 }
+
 op1.a:link {
   color: rgb(0, 0, 0);
 }
+
 op1.a:visited {
   color: #000000;
 }
+
 op1.a:focus {
   border-bottom: 1px solid;
   background: #bae498;
