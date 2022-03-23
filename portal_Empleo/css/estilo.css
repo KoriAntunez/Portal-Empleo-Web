@@ -51,9 +51,11 @@ h3 {
 }
 
 .cardtitle {
+  color: #9e73ee;
+}
+.cardtitle2 {
   color: #ffffff;
 }
-
 .cardsubtitle {
   color: rgb(0, 0, 0);
 }
