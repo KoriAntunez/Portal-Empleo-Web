@@ -22,13 +22,8 @@ img.logoimg {
     color:#9e73ee
 }
 
-.btn{
-    background-color: #49ef9e;
-    padding: 2%;
-    border-color: black;
-    color: rgb(0, 0, 0);
-    border-radius: 4%;
-}
+
+
 .btn1{
     background-color: #8f9491;
     padding: 1%;
@@ -48,3 +43,10 @@ img.logoimg {
 .bor{
     border:1px solid#000000
 }
+.botn{
+    background-color: #49ef9e;
+    padding: 2%;
+    border-color: black;
+    color: rgb(0, 0, 0);
+    border-radius: 4%;
+  }
