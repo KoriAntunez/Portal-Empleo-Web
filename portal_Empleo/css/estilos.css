@@ -27,7 +27,7 @@
 }
 .btn1{
     background-color: #8f9491;
-    padding: 2%;
+    padding: 1%;
     border-color: black;
     color: rgb(0, 0, 0);
     border-radius: 4%;
@@ -38,4 +38,11 @@
     color:#9e73ee
     
 }
+.form-control{
+    border:1px solid#49ef9e
+}
+.bor{
+    border:1px solid#000000
+}
+
 
