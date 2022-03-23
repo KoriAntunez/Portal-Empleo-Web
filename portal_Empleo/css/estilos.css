@@ -22,8 +22,6 @@ img.logoimg {
     color:#9e73ee
 }
 
-
-
 .btn1{
     background-color: #8f9491;
     padding: 1%;
@@ -50,3 +48,21 @@ img.logoimg {
     color: rgb(0, 0, 0);
     border-radius: 4%;
   }
+  .let{
+    font-family: cursive;
+    text-align:center;
+    color:#030303
+}
+.edit{
+    background-color: #49ef9e;
+    border-radius: 2px;
+}
+.elimi{
+    background-color: #7d807e;
+    border-radius: 5%;
+}
+
+tr{
+        border: 1px solid black;
+       
+        }
