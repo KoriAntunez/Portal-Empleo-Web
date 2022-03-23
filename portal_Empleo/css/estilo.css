@@ -17,8 +17,8 @@ img.logoimg {
 }
 
 img.cardimg {
-  width: 8cm;
-  height: 6cm;
+  width: 50%;
+  height: 50%;
 }
 
 .imgcard {
@@ -51,16 +51,32 @@ h3 {
 }
 
 .cardtitle {
-  color: #9e73ee;
+  color: #ffffff;
 }
 
-cardp {
+.cardsubtitle {
+  color: rgb(0, 0, 0);
+}
+.cardp {
   padding: 2;
   margin: 5;
 }
 
+.cardbody {
+  background-color: #9e73ee;
+}
+
+.cardprice {
+  color: #9e73ee;
+}
+
 .bg-secondary {
   background-color: white;
+}
+
+#hr {
+  border: 3px solid rgb(146, 146, 146);
+  background-color: black;
 }
 
 .btn-outline-success {

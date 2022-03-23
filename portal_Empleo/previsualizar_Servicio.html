@@ -60,7 +60,7 @@
                     </form>
                 </div>
 
-                <div class="col-3 d-flex justify-content-end" >
+                <div class="col-2 d-flex justify-content-end" >
                 <div class="row  ">
                     <div class="col-12">
                         <ul class="navbar-nav ">
@@ -88,18 +88,69 @@
     </nav>
     <!--Navbar-->
     <!--Content-->
-    <div class="container-flex">
-        <div class="row">
-            <div class="col">
+    <!--Content-->
+    <section class="container-fluid d-block d-flex justify-content-center">   
+        <div class="container d-inline-flex justify-content-between my-4">
+            <div class="col-12 cardp mx-3">
+                <div class="card">
+                    <div class="card-body cardbody pb-0">
+                        <h1 class="card-text cardtitle "><i class="bi bi-person-circle"></i>Cocinero</h1>
+                    </div>
+                    <div class="card-body cardbody my-0 py-3">
+                        <h4 class="card-text cardsubtitle">Luisa Rosa Martínez Valle</h4>
+                    </div>
+                    <div class="card-body imgcard my-0 py-2 d-flex justify-content-center">
+                        <img class="cardimg" src="imagenes/cocinero3.jpg" alt="Card image">
+                    </div>
+                    <div class="card-body imgcard my-0 py-2 d-flex justify-content-center">
+                        <h3><i class="bi bi-geo-alt-fill"></i>Perú - Lima - Jesus María</h3>
+                    </div>
+                    <hr>
+                    <div class="card-body pb-0">
+                        <h3 class="card-text cardprice">S/.150.00</h3>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">Planeamos, organizamos y producimos tu evento, tenemos el firme proposito de darte la mejor calidad de servicio,
+                        plasmado en cada detalle que marcan nuestra diferencia, asesorandote y orientandote integralmente por un presupuesto
+                        razonable y preferencial al alcance de nuestros clientes, cuidando minusiosamente todos los mas minimos detalles y
+                        exigencias para que tu evento sea todo un éxito.
+                        </p>
+                    </div>
+                    <div class="card-body d-flex justify-content-center">
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <i class="bi bi-plus-lg"></i>Solicitar
+                        </button>
 
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h3 class="modal-title" id="exampleModalLabel">Carpintero</h3>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p><i class="bi bi-telephone-forward"></i> +051 999-333-444</p>
+                                        <p><i class="bi bi-phone-vibrate"></i> +051 01 423 342</p>
+                                        <p><i class="bi bi-envelope-fill"></i> luisa.martinez@gmail.com</p>
+                                        <a href="https://api.whatsapp.com/send?phone=+51988392748"><i class="bi bi-whatsapp"></i>https://api.whatsapp.com/send?phone=+51988392748</a>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-primary">Aceptar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Modal -->
+
+                </div>
             </div>
         </div>
-    </div>
+    </section>
 
-
-
-
-    <script src="js/javascriptSlides.js"></script>
+    <script src="js/modal.js"></script>
     <script src="js/javascript.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     </body>
