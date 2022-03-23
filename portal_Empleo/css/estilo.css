@@ -4,16 +4,60 @@ SOBREESCRIBIENDO  LOS ESTILOS DE BOOTSTRAP
 ------------------------------------------*/
 
 @charset "UTF-8";
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+.bg-primary {
+  background-color: #9e73ee;
+}
+
+.bg-secondary {
+  background-color: white;
+}
+.btn-outline-success {
+  background-color: #49ef9eff;
+  color: white;
+}
+
+.btn-outline-success:hover {
+  background: #9e73ee;
+  color: #000000;
+  border: 0px solid;
+}
+.navcontainer {
+  justify-content: space-around;
+}
+op1.a:link {
+  color: rgb(0, 0, 0);
+}
+op1.a:visited {
+  color: #000000;
+}
+op1.a:focus {
+  border-bottom: 1px solid;
+  background: #bae498;
+}
+
+op1.a:hover {
+  border-bottom: 1px solid;
+  background: #cdfeaa;
+}
+
+op1.a:active {
+  background: #265301;
+  color: #cdfeaa;
+}
 
 body {
   font-family: sans-serif;
 }
-
+li {
+  list-style: none;
+  font-size: 16px;
+}
 header {
   display: flex;
   flex-direction: row;
@@ -149,7 +193,7 @@ nav .side-nav-panel {
   max-width: 380px;
   height: 100vh;
   padding-top: 85px;
-  background-color: #023047;
+  background-color: #9e73ee;
   box-shadow: 1px 0 5px rgba(22, 24, 26, 0.5), 1px 0 3px rgba(7, 8, 10, 0.7);
   transition: 0.5s left;
 }
@@ -189,7 +233,7 @@ nav .top-nav > li:hover,
 nav .top-nav > li:active,
 nav .top-nav > li:focus,
 nav .top-nav > li.active {
-  background-color: #fcfcfc;
+  background-color: #9e73ee;
 }
 nav .top-nav > li:hover a:link,
 nav .top-nav > li:hover a:visited,
@@ -199,7 +243,7 @@ nav .top-nav > li:focus a:link,
 nav .top-nav > li:focus a:visited,
 nav .top-nav > li.active a:link,
 nav .top-nav > li.active a:visited {
-  color: #3c3c3c;
+  color: #ffffff;
 }
 nav .top-nav > li a {
   display: block;
@@ -227,8 +271,11 @@ nav .parent-item.active > a::after {
   top: -2px;
   transform: rotate(180deg);
 }
+#li {
+  list-style: none;
+}
 nav .submenu {
-  background-color: #e8e8e8;
+  background-color: #9e73ee;
   position: relative;
   top: 12px;
   left: 0;
@@ -250,10 +297,9 @@ nav .submenu.active {
 nav .submenu li {
   position: relative;
   padding-left: 1em;
-  background-color: #fcfcfc;
+  background-color: #9e73ee;
 }
 nav .submenu li::before {
-  content: "▸";
   display: block;
   position: absolute;
   top: 10px;
@@ -261,8 +307,8 @@ nav .submenu li::before {
   color: #000;
 }
 nav .submenu li a {
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 nav .nav-profile {
   display: flex;
@@ -314,150 +360,6 @@ nav .nav-profile .profile-info p {
   margin: 0 6px;
 }
 
-.dark-mode-button {
-  display: block;
-  position: absolute;
-  top: 20px;
-  right: 36px;
-  background: transparent;
-  border: none;
-  height: 40px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  transition: 0.3s ease-in;
-  letter-spacing: 1px;
-}
-
-.dark-mode-button:before {
-  content: "THEME";
-  position: relative;
-  color: #fff;
-  left: 2px;
-  bottom: 8px;
-  transition: 0.1s ease-in;
-}
-
-body.dark-mode .dark-mode-button:before {
-  color: #fff;
-}
-
-.dark-toggle {
-  margin: 0;
-  width: 30px;
-  height: 16px;
-  z-index: 20;
-  border-radius: 10px;
-  background: transparent;
-  display: flex;
-  align-items: center;
-  transition: 0.3s ease;
-  display: flex;
-  justify-content: center;
-  z-index: 1000;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-body.dark-mode .dark-toggle {
-  background: #023047;
-  border: none;
-}
-
-.dark-toggle span {
-  height: 20px;
-  width: 20px;
-  left: -18px;
-  border-radius: 50%;
-  background: #fff;
-  position: relative;
-  transition: 0.3s ease;
-  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
-}
-
-body.dark-mode .dark-toggle span {
-  left: 20px;
-  transition: 0.3s ease;
-}
-
-.dark-mode-button .dark-toggle {
-  background: #ffb703;
-  width: 40px;
-}
-
-body.dark-mode {
-  background-color: #0a0b0d;
-  color: #fcfcfc;
-}
-body.dark-mode header {
-  background-color: #16181a;
-}
-body.dark-mode header a {
-  color: #fcfcfc;
-}
-body.dark-mode nav .side-nav-panel {
-  background-color: #07080a;
-  box-shadow: 1px 0 5px rgba(252, 252, 252, 0.1),
-    1px 0 3px rgba(252, 252, 252, 0.2);
-}
-body.dark-mode
-  input[name="toggle-nav"]:hover:checked
-  + label[for="toggle-nav"]
-  .menu-icon::before,
-body.dark-mode
-  input[name="toggle-nav"]:hover:checked
-  + label[for="toggle-nav"]
-  .menu-icon::after,
-body.dark-mode
-  input[name="toggle-nav"]:active:checked
-  + label[for="toggle-nav"]
-  .menu-icon::before,
-body.dark-mode
-  input[name="toggle-nav"]:active:checked
-  + label[for="toggle-nav"]
-  .menu-icon::after,
-body.dark-mode
-  input[name="toggle-nav"]:focus:checked
-  + label[for="toggle-nav"]
-  .menu-icon::before,
-body.dark-mode
-  input[name="toggle-nav"]:focus:checked
-  + label[for="toggle-nav"]
-  .menu-icon::after {
-  background-color: #219ebc;
-}
-body.dark-mode .top-nav .active a:link,
-body.dark-mode .top-nav .active a:visited {
-  color: #fcfcfc;
-}
-body.dark-mode .top-nav > li:hover,
-body.dark-mode .top-nav > li:active,
-body.dark-mode .top-nav > li:focus,
-body.dark-mode .top-nav > li.active {
-  color: #fcfcfc;
-  background-color: #023047;
-}
-body.dark-mode .top-nav > li:hover a:link,
-body.dark-mode .top-nav > li:hover a:visited,
-body.dark-mode .top-nav > li:active a:link,
-body.dark-mode .top-nav > li:active a:visited,
-body.dark-mode .top-nav > li:focus a:link,
-body.dark-mode .top-nav > li:focus a:visited,
-body.dark-mode .top-nav > li.active a:link,
-body.dark-mode .top-nav > li.active a:visited {
-  color: #fcfcfc;
-}
-body.dark-mode .submenu {
-  background-color: #023047;
-}
-body.dark-mode .submenu li {
-  background-color: #023047;
-}
-body.dark-mode .submenu li::before {
-  color: #fcfcfc;
-}
 /*-----------------------------------------------
 -----------------------------------------------*/
 .navbar {
