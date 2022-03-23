@@ -86,45 +86,36 @@
     </nav>
     <!--Navbar-->
     <div class="container">
-        <h1 class="text-center my-5 letra">EDITAR PERFIL</h1>
+        <h1 class="text-center my-5 letra">NUEVO SERVICIO</h1>
         <div class="row justify-content-center letras" >
             <div class="col-6">
             <div class="row row-cols-1">
-                <div class="col"><label for="disabledTextInput" class="form-label">NOMBRE</label><input type="text" id="disabledTextInput" class="form-control"></div>
-                <div class="col"><label for="disabledTextInput" class="form-label"> APELLIDOS</label><input type="text" id="disabledTextInput" class="form-control" ></div>
-                <div class="col"><label for="disabledTextInput" class="form-label">DIRECCIÓN</label><input type="text" id="disabledTextInput" class="form-control" ></div>
-                <div class="col"><label for="disabledTextInput" class="form-label">CELULAR</label><input type="text" id="disabledTextInput" class="form-control" ></div>
-                <div class="col"><label for="disabledTextInput" class="form-label">CORREO ELECTRÓNICO</label><input type="text" id="disabledTextInput" class="form-control" ></div>
-                <div class="col"><label for="disabledTextInput" class="form-label">CONTRASEÑA</label><input type="text" id="disabledTextInput" class="form-control" ></div>
-                <div class="col"><label for="disabledTextInput" class="form-label">CONFIRMAR CONTRASEÑA</label><input type="text" id="disabledTextInput" class="form-control" ></div>
-            
+                <div class="col"><label for="disabledTextInput" class="form-label">NOMBRE DE SERVICIO</label><input type="text" id="disabledTextInput" class="form-control"></div>
+                <div class="col"><label for="disabledTextInput" class="form-label"> DEPARTAMENTO-DISTRITO-PROVINCIA</label><input type="text" id="disabledTextInput" class="form-control" ></div>
+                <div class="col"><label for="disabledTextInput" class="form-label">TARIFA</label><input type="text" id="disabledTextInput" class="form-control" ></div>
+                <div class="col"><label for="disabledTextInput" class="form-label">LINK DE WHATSAPP</label><input type="text" id="disabledTextInput" class="form-control" ></div>
                </div></div>
             <div class="col-6">
             <div class="row row-cols-1">
-               <div class="col"><label for="disabledTextInput" class="form-label">PAÍS/DEPARTAMENTO/CIUDAD</label>  <input type="text" id="disabledTextInput" class="form-control"></div>
-               <div class="col-7"><label for="disabledTextInput" class="form-label">FECHA DE NACIMIENTO</label>
-                   <input class="form-control " type="date" id="start" name="trip-start"
-                    value="dd-mm-aaaa"
-                    min="01-01-1940" ></div>
-               <div class="col-7"> <label for="disabledTextInput" class="form-label"></label>
-                   <select class="form-select form-control mt-2 ">
-                     <option selected>SEXO</option>
-                     <option value="1">MÁSCULINO</option>
-                     <option value="2">FEMENINO</option>
-                   </select></div>
-           </div></div>
-           <div class="col my-3">
-             <div class="row">
-                 <div class="col-6 d-flex justify-content-end"><button type="submit" class="btn1 btn-secondary " >CANCELAR</button></div>
-                 <div class="col-6"><button type="submit" class="btn btn-primary " >GUARDAR CAMBIOS</button>
+               <div class="col"><label for="disabledTextInput" class="form-label">DESCRIPCION <textarea class="form-control mt-2" id="exampleFormControlTextarea1" rows="4" cols="30"></textarea></div>
+               <div class="col-7"><label for="disabledTextInput" class="form-label">SUBIR IMAGEN</label>
+              <input  type="file" name="file" id="file" accept=".jpg, .png, .jpeg">
+              <div id="preview" class="styleImage"></div>
+              </div></div></div>
+                <scrip></scrip>
+                <div class="col my-3">
+                  <div class="row">
+                      <div class="col-6 d-flex justify-content-end"><button type="submit" class="btn1 btn-secondary " >CANCELAR</button></div>
+                      <div class="col-6"><button type="submit" class="btn btn-primary " >GUARDAR CAMBIOS</button>
+                  </div>
+                </div>
              </div>
-           </div>
-        </div>
-
-    </div></div>
+    
+         </div></div>
 
     <script src="js/javascript.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
-    </body>
-    
+   <script src="js/script.js"></script>
+  </body>
+  
 </html>
